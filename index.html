@@ -10,15 +10,53 @@
 <body>
 
     <div class="container">
-        <p class="page-header" class> Pong Game For Fun </p>
-        <p>Here are the rules of how the game is played:</p>
-        <ul>
-            <li>Numbers Divisible by 3 will be replaced with "ping"</li>
-            <li>Numbers divisible by 5 will be replaced with "pong"</li>
-            <li>Numbers divisible by both 3 and 5 will be replaced as "pingpong"</li>
-            <li>The rest of the numbers will be displayed as RAW Numbers</li>
-            <li></li>
-        </ul>
+        <div class="jumbotron">
+            <p class="page-header">
+                <h1 class="text-center">Pong Game For Fun</h1>
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-sm-5">
+                <p> About this game </p>
+                <p>Created By: Kevin Gitaari</p>
+                <p></p>
+            </div>
+            <div class="text-left col-sm-7">
+                <p>
+                    <h3>Ping pong will have to count from zero to the number that you have provided:</h3>
+                </p>
+                <p>Here are the <b>RULES</b> of how the game is played:</p>
+                <ul class="li1">
+                    <li>
+                        <h4>Numbers Divisible by 3 will be replaced with "ping "</h4>
+                    </li>
+                    <li>
+                        <h4>Numbers divisible by 5 will be replaced with "pong "</h4>
+                    </li>
+                    <li>
+                        <h4>Numbers divisible by both 3 and 5 will be replaced as "pingpong "</h4>
+                    </li>
+                    <li>
+                        <h4>The rest of the numbers will be displayed as RAW Numbers</h4>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+
+        <form id="userInput">
+            <div class="form-group">
+                <label for="userNumber">Enter a number:</label>
+                <input id="userNumber " type="number" class="form-control" placeholder="Enter the number here">
+            </div>
+            <button type="submit" class="btn btn-success" id="mainButton">Submit</button>
+        </form>
+
+
+
+        <!-- the form to collect the users' number starts here-->
+
 
 
     </div>
