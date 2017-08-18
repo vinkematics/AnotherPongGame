@@ -7,7 +7,7 @@
     padding-bottom: 30px;
     margin-bottom: 2px;
     color: #F3C585;
-    background-color: #E6EFDB;
+    background-color: #B7D7F6;
 }
 
 form {
@@ -15,19 +15,25 @@ form {
     padding-bottom: 40px;
     margin-bottom: 30px;
     color: inherit;
-    background-color: #F2F2F2;
+    background-color: #E0EFF9;
     width: 70%;
     border-radius: 10px;
 }
 
 .container {
-    background-color: #F3C585;
+    background-color: #B7D7F4;
+    border-radius: 15px;
 }
 
 .jumbotron {
-    background-color: #F3C585;
+    background-color: #B7D7F9;
 }
 
 h4 {
     font-weight: normal;
+}
+
+body {
+    font-family: 'Caveat Brush';
+    font-size: 24px;
 }
