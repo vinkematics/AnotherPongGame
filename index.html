@@ -56,11 +56,16 @@
         </div>
         <!-- the form to collect the users' number starts here-->
         <form id="userInput">
-            <div class="form-group">
-                <label for="userInput">Enter a number:</label>
-                <input id="userInput " type="number" class="form-control" placeholder="Enter the number here">
-            </div>
-            <button type="submit" class="btn btn-success pull-right" id="subButton">Submit</button>
+
+            <input type="number" name="pingpong" value="" id="me" />
+
+            <button type="button" name="btnping" onclick="pingPongClick()">Ping pong</button>
+
+            <ol id="ans">
+
+            </ol>
+
+
         </form>
 
 
