@@ -9,10 +9,12 @@ By <a href="https://vinkematics.github.io/">Kevin Mwenda</a>
 
 This is a web application that asks the user to input a number into an input field and submit it by clicking on the submit button. Afterwards an output is displayed to the user. The output consists of number 1 upto the user input number with the exception of number 3, 5 and their multiples.
 <b>rules to the output</b>
-For numbers divisible by 3 the output is ping
-For numbers divisible by 5 the output is pong
-For numbers divisible by 3 and 5 the output is pingpong
+<ul>
+<li>For numbers divisible by 3 the output is ping</li>
+<li>For numbers divisible by 5 the output is pong</li>
+<li>For numbers divisible by 3 and 5 the output is pingpong</li>
 Ping Pong
+</ul>
 
 <b>Setup/Installation Requirements</b>
 
